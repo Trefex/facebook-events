@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Facebook Group Events</name>
+	<author>Trefex</author>
+	<version>0.0.1</version>
+	<creationDate>May 2013</creationDate>
+	<copyright>Trefex 2013</copyright>
+	<license>Creative Commons by-nd</license>
+	<authorEmail>trefex@gmail.com</authorEmail>
+	<authorURL>https://github.com/Trefex</authorURL>
+	<description>Fetch facebook group events and displays them in module</description>
+	<files>
+		<filename>mod_facebookevent.xml</filename>
+		<filename module="mod_facebookevent">mod_facebookevent.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>helper.php</filename>	
+		<filename>api/facebook.php</filename>
+		<filename>api/base_facebook.php</filename>
+		<filename>api/fb_ca_chain_bundle.crt</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="AppKey" type="text" label="App ID / API Key" description="Enter the App ID / API Key" />
+				<field name="AppSecret" type="text" label="App Secret" description="App Secret" />
+				<field name="GroupID" type="text" label="Group ID" description="The ID of the Facebook Group" />
+				<field name="numEvents" type="text" label="Number of Events" description="Number of Events to display" />
+			</fieldset>
+		
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please enter Module Class Suffix" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
