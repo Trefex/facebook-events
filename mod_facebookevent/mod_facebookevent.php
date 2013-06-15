@@ -6,6 +6,7 @@
 	$app_id = $params->get('AppKey');
     $secret = $params->get('AppSecret');
     $page_id = $params->get('GroupID');
+	$days = $params->get('daysPast');
 
 	$fbConfig = array();
     $fbConfig['appId'] = $app_id;
@@ -14,7 +15,7 @@
 
     $facebook = new Facebook($fbConfig);
 
-	$start_time = mktime() - (2 * 24 * 60 * 60);
+	$start_time = mktime() - ($days * 24 * 60 * 60);
 	$fql = 'SELECT 
 			eid, 
 			name, 

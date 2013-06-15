@@ -2,7 +2,7 @@
 <extension type="module" version="3.0" client="site" method="upgrade">
 	<name>Facebook Group Events</name>
 	<author>Trefex</author>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<creationDate>May 2013</creationDate>
 	<copyright>Trefex 2013</copyright>
 	<license>Creative Commons by-nd</license>
@@ -27,6 +27,7 @@
 				<field name="AppSecret" type="text" label="App Secret" description="App Secret" />
 				<field name="GroupID" type="text" label="Group ID" description="The ID of the Facebook Group" />
 				<field name="numEvents" type="text" label="Number of Events" description="Number of Events to display" />
+				<field name="daysPast" type="text" label="Past Events (days)" description="Number of days to show past events. If you put 2, then events as old as 2 days will be displayed" />
 			</fieldset>
 		
 			<fieldset name="advanced">
