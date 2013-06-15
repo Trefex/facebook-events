@@ -14,6 +14,7 @@
 
     $facebook = new Facebook($fbConfig);
 
+	$start_time = mktime() - (2 * 24 * 60 * 60);
 	$fql = 'SELECT 
 			eid, 
 			name, 
@@ -29,6 +30,7 @@
 				WHERE uid="'.$page_id.'"
 			) 
 		
+		AND start_time >= '. $start_time . '
 		ORDER BY start_time ASC 
 		LIMIT ' . $params->get('numEvents') . '
 ';
