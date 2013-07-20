@@ -2,6 +2,8 @@
 	defined('_JEXEC') or die;
 	
 	require_once 'api/facebook.php';
+	date_default_timezone_set('Europe/Brussels');
+
 	
 	$app_id = $params->get('AppKey');
     $secret = $params->get('AppSecret');
@@ -43,37 +45,40 @@
     ));
 	
     $html = '';                            
+	
+	if(empty($ret_obj)) {
+		$html .= '<p>There are currently no events planned.</p>';
+	} else {
+		foreach($ret_obj as $key)
+		{
+			
+			$facebook_url = 'https://www.facebook.com/event.php?eid=' . $key['eid'];
+			
+			$start_time = date("F j, Y \@ g:i a", strtotime($key['start_time']));
+			
+			if(!is_null($key['end_time'])) {
+				$end_time = date("F j, Y \@ g:i a", strtotime($key['end_time']));
+			}
+			
+			$description = (strlen($key['description']) > 70) ? substr($key['description'],0,67).'...' : $key['description'];
+			
+			/*
+			//<a href="'.$facebook_url.'"><img src="'.$key['pic_square'].'" /></a>
+					
+					<p class="time">'.$end_time.'</p>
+			*/
 
-    foreach($ret_obj as $key)
-    {
-		
-        $facebook_url = 'https://www.facebook.com/event.php?eid=' . $key['eid'];
-		
-        $start_time = date("F j, Y \@ g:i a", strtotime($key['start_time']));
-		
-		if(!is_null($key['end_time'])) {
-			$end_time = date("F j, Y \@ g:i a", strtotime($key['end_time']));
+			$html .= '
+				<div class="event' . $params->get('moduleclass_sfx') . '">
+					<span>
+						<a href="'.$facebook_url.'">'.$key['name'].'</a>
+						<p class="time">'.$start_time.'</p>
+						<p style="font-size:0.9em; font-style:italic;">' . $description . '</p>
+					</span>
+				</div>
+			';
 		}
-		
-		$description = (strlen($key['description']) > 70) ? substr($key['description'],0,67).'...' : $key['description'];
-		
-		/*
-		//<a href="'.$facebook_url.'"><img src="'.$key['pic_square'].'" /></a>
-				
-				<p class="time">'.$end_time.'</p>
-		*/
-
-        $html .= '
-            <div class="event' . $params->get('moduleclass_sfx') . '">
-                <span>
-                    <a href="'.$facebook_url.'">'.$key['name'].'</a>
-                    <p class="time">'.$start_time.'</p>
-                    <p style="font-size:0.9em; font-style:italic;">' . $description . '</p>
-                </span>
-            </div>
-        ';
-    }
-
+	}
     echo $html;
 	
 	$layout = $params->get('layout', 'default');

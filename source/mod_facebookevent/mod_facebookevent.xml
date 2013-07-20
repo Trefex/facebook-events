@@ -2,8 +2,8 @@
 <extension type="module" version="3.0" client="site" method="upgrade">
 	<name>Facebook Group Events</name>
 	<author>Trefex</author>
-	<version>0.0.2</version>
-	<creationDate>May 2013</creationDate>
+	<version>0.0.3</version>
+	<creationDate>July 2013</creationDate>
 	<copyright>Trefex 2013</copyright>
 	<license>Creative Commons by-nd</license>
 	<authorEmail>trefex@gmail.com</authorEmail>
