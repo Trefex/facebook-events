@@ -9,9 +9,9 @@
 	  <client>1</client>
       <version>0.0.4</version>
  
-      <infourl title="HalloWorld URL">https://github.com/Trefex/jooma_facebookevents</infourl>
+      <infourl title="Facebook Group">http://github.com/Trefex/jooma_facebookevents</infourl>
       <downloads>
-         <downloadurl type="full" format="zip">https://github.com/Trefex/jooma_facebookevents/raw/master/downloads/mod_facebookevent_v0.0.4.zip</downloadurl>
+         <downloadurl type="full" format="zip">http://github.com/Trefex/jooma_facebookevents/raw/master/downloads/mod_facebookevent_v0.0.4.zip</downloadurl>
       </downloads>
 
       <maintainer>Trefex</maintainer>
@@ -27,13 +27,13 @@
 	  <client>1</client>
       <version>0.0.3</version>
  
-      <infourl title="HalloWorld URL">https://github.com/Trefex/jooma_facebookevents</infourl>
+      <infourl title="HalloWorld URL">http://github.com/Trefex/jooma_facebookevents</infourl>
       <downloads>
-         <downloadurl type="full" format="zip">https://github.com/Trefex/jooma_facebookevents/raw/master/downloads/mod_facebookevent_v0.0.2.zip</downloadurl>
+         <downloadurl type="full" format="zip">http://github.com/Trefex/jooma_facebookevents/raw/master/downloads/mod_facebookevent_v0.0.2.zip</downloadurl>
       </downloads>
 
       <maintainer>Trefex</maintainer>
-      <maintainerurl>https://github.com/Trefex</maintainerurl>
+      <maintainerurl>http://github.com/Trefex</maintainerurl>
       <targetplatform name="joomla" version="3.[012345]" />
    </update> 
 </updates>
