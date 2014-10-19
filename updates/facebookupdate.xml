@@ -18,4 +18,22 @@
       <maintainerurl>https://github.com/Trefex</maintainerurl>
       <targetplatform name="joomla" version="3.[012345]" />
    </update> 
+   
+   <update>
+      <name>Facebook Group Events</name>
+      <description>Fetch facebook group events and displays them in module</description>
+      <element>Facebook Group Events</element>
+      <type>module</type>
+	  <client>1</client>
+      <version>0.0.3</version>
+ 
+      <infourl title="HalloWorld URL">https://github.com/Trefex/jooma_facebookevents</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">https://github.com/Trefex/jooma_facebookevents/raw/master/downloads/mod_facebookevent_v0.0.2.zip</downloadurl>
+      </downloads>
+
+      <maintainer>Trefex</maintainer>
+      <maintainerurl>https://github.com/Trefex</maintainerurl>
+      <targetplatform name="joomla" version="3.[012345]" />
+   </update> 
 </updates>
