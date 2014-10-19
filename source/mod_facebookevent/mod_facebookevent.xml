@@ -35,5 +35,7 @@
 			</fieldset>
 		</fields>
 	</config>
-	
+	<updateservers>
+		<server type="extension" priority="1" name="Facebook Events Update">https://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/updates/facebookupdate.xml</server>
+	</updateservers>
 </extension>
