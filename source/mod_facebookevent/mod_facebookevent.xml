@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<extension type="module" version="3.0" client="site" method="upgrade">
+<extension type="module" version="3.3" client="site" method="upgrade">
 	<name>Facebook Group Events</name>
 	<author>Trefex</author>
 	<version>0.0.4</version>
@@ -37,6 +37,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" priority="1" name="Facebook Group Events">http://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/updates/facebookupdate.xml</server>
+		<server type="extension" priority="1" name="Facebook Group Events">http://s3-eu-west-1.amazonaws.com/fbevents/facebookupdate.xml</server>
 	</updateservers>
 </extension>
