@@ -2,10 +2,10 @@
 <extension type="module" version="3.3" client="site" method="upgrade">
 	<name>Facebook Group Events</name>
 	<author>Trefex</author>
-	<version>0.0.6</version>
+	<version>0.0.7</version>
 	<creationDate>20 Oct 2014</creationDate>
 	<copyright>Trefex 2014</copyright>
-	<license>Creative Commons by-nd</license>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorEmail>trefex@gmail.com</authorEmail>
 	<authorURL>https://github.com/Trefex</authorURL>
 	<description>Fetch facebook group events and displays them in module</description>
@@ -15,7 +15,7 @@
 		<filename>index.html</filename>
 		<filename>tmpl/default.php</filename>
 		<filename>tmpl/index.html</filename>
-		<filename>helper.php</filename>	
+		<filename>helper.php</filename>
 		<folder>facebook-php-sdk</folder>
 	</files>
 	<config>

@@ -1,3 +1,9 @@
+### 0.0.7 (2014-10-20)
+
+#### General
+
+* Changed license from CC to GNU / GPL v3
+
 ### 0.0.6 (2014-10-20)
 
 <!-- #### Features -->
@@ -5,7 +11,7 @@
 
 * Group ID was static in mod_facebookevent.xml and default.php
 
-#### General Improvements
+#### General
 
 * Clean code by removing old FB API
 * Clean code
@@ -15,4 +21,4 @@
 #### Features
 
 * Added update server. Module can now be updated from within Joomla
-* Changed code to OpenGraph API using Facebook API v4 
+* Changed code to OpenGraph API using Facebook API v4

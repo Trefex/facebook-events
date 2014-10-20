@@ -20,4 +20,6 @@ View of the back-end using *isis* template:
 
 ![Alt text](https://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/screenshots/front_end_v0.0.6.PNG "Front end view")
 
-![license](http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png "CC BY-NC-SA") - This work is sourced under CC BY-NC-SA v4.0.
+This work is sourced under GNU / GPL v3.
+
+Trefex 2014.

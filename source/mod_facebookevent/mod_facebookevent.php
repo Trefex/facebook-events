@@ -1,4 +1,11 @@
 <?php
+/**
+ * @package Module Facebook Group Events for Joomla! 3.x
+ * @version $Id: mod_facebookevent.php 2014-10-20 Trefex $
+ * @author Christophe Trefois (Trefex)
+ * @copyright (C) 2014 - Trefex
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+**/
 	defined('_JEXEC') or die;
 	//ini_set('display_errors', 'On');
 	//error_reporting(E_ALL);
