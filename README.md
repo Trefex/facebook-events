@@ -12,11 +12,11 @@ ID and you're good to go.
 
 See the images below or in the screenshots folder to see the *module* in action
 
-View of the front-end using *protostar* template:
+View of the back-end using *isis* template:
 
 ![Alt text](https://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/screenshots/back_end_v0.0.6.PNG "Back end view")
 
-View of the back-end using *isis* template:
+View of the front-end using *protostar* template:
 
 ![Alt text](https://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/screenshots/front_end_v0.0.6.PNG "Front end view")
 
