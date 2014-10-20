@@ -2,7 +2,7 @@
 <extension type="module" version="3.3" client="site" method="upgrade">
 	<name>Facebook Group Events</name>
 	<author>Trefex</author>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<creationDate>20 Oct 2014</creationDate>
 	<copyright>Trefex 2014</copyright>
 	<license>Creative Commons by-nd</license>
