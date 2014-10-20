@@ -10,6 +10,13 @@ ID and you're good to go.
 
 **All** issues and feature requests should be made via github only.
 
+#### Installation
+
+Download the latest release from the **downloads** folder and install using Joomla.
+Future releases can be updated using the Joomla Updater.
+
+#### Screenshots
+
 See the images below or in the screenshots folder to see the *module* in action
 
 View of the back-end using *isis* template:
