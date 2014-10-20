@@ -7,6 +7,24 @@
       <element>mod_facebookevent</element>
       <type>module</type>
 	  <client>site</client>
+      <version>0.0.5</version>
+ 
+      <infourl title="Facebook Group">http://github.com/Trefex/jooma_facebookevents</infourl>
+      <downloads>
+         <downloadurl type="full" format="zip">http://github.com/Trefex/jooma_facebookevents/raw/master/downloads/mod_facebookevent_v0.0.4.zip</downloadurl>
+      </downloads>
+
+      <maintainer>Trefex</maintainer>
+      <maintainerurl>https://github.com/Trefex</maintainerurl>
+      <targetplatform name="joomla" version="3.3" />
+   </update> 
+
+   <update>
+      <name>Facebook Group Events</name>
+      <description>Fetch facebook group events and displays them in module</description>
+      <element>mod_facebookevent</element>
+      <type>module</type>
+	  <client>site</client>
       <version>0.0.4</version>
  
       <infourl title="Facebook Group">http://github.com/Trefex/jooma_facebookevents</infourl>
