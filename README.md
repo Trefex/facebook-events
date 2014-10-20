@@ -12,6 +12,6 @@ ID and you're good to go.
 
 See the images below or in the screenshots folder to see the *module* in action
 
-![Alt text](/path/to/img.jpg)
+![Alt text](https://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/screenshots/back_end_v0.0.6.PNG)
 
-![Alt text](/path/to/img.jpg)
+![Alt text](https://raw.githubusercontent.com/Trefex/jooma_facebookevents/master/screenshots/front_end_v0.0.6.PNG)
