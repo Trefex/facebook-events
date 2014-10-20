@@ -2,7 +2,7 @@
 <extension type="module" version="3.3" client="site" method="upgrade">
 	<name>Facebook Group Events</name>
 	<author>Trefex</author>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<creationDate>20 Oct 2014</creationDate>
 	<copyright>Trefex 2014</copyright>
 	<license>Creative Commons by-nd</license>
@@ -16,9 +16,6 @@
 		<filename>tmpl/default.php</filename>
 		<filename>tmpl/index.html</filename>
 		<filename>helper.php</filename>	
-		<filename>api/facebook.php</filename>
-		<filename>api/base_facebook.php</filename>
-		<filename>api/fb_ca_chain_bundle.crt</filename>
 		<folder>facebook-php-sdk</folder>
 	</files>
 	<config>
@@ -30,7 +27,7 @@
 				<field name="numEvents" type="text" label="Number of Events" description="Number of Events to display" />
 				<field name="daysPast" type="text" label="Past Events (days)" description="Number of days to show past events. If you put 2, then events as old as 2 days will be displayed" />
 			</fieldset>
-		
+
 			<fieldset name="advanced">
 				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please enter Module Class Suffix" />
 			</fieldset>
